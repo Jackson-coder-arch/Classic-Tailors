@@ -1,0 +1,134 @@
+*{
+   overflow-x: hidden;
+}
+body{
+    background-color:#ffa45b;
+}
+header nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 2.5em;
+
+}
+header li{
+    display: inline;
+    float: right;
+    width:260px;
+    margin-left:5%;
+
+    
+}
+.section1 img{
+    position: absolute;
+    right: 25px;
+    top: 50px;
+    float: right;
+    border:60px;
+    margin-top: 5%;
+}
+.section1 h1{
+    position: absolute;
+    top:3.5%;
+    padding-top: 8%;
+    padding-left: 10%;
+    font-size: 80px;
+    font-family: serif;
+    font-style: italic;
+}
+.section1 p{
+    padding-left:50px;
+    font-size: 200%;
+    margin-top: 10%;
+    padding-top: 8%;
+    font-size: 48px;
+   
+}
+.section1 .her-out{
+   margin-top:0px; 
+}
+
+
+.section2{
+    background-color: rgb(189, 184, 184);
+margin-top: 1%;
+margin-right: 1em;
+    
+}
+
+  
+.row1, .row2{
+    display:flex; 
+    padding: 2%;
+    justify-content: space-around;
+}
+.col-title{
+   text-align: center;
+   position: relative;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  footer{
+      display:inline-block;
+      background-color: rgb(123, 173, 247);
+      list-style-type: none;
+      text-align: center;
+      width: 99.15%;
+      margin-left: 0em;
+      padding-right: px;
+  }
+  footer img{
+    display: inline-block;
+    text-decoration: none;
+
+  }
+ img{
+     border-radius: 50%;
+ }
+ #banner{
+     border-radius:0%;
+ }
+ p{
+     display: block;
+     padding: 10px;
+     position: relative;
+ }
+ .title1, .title2{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .row2{
+     margin-left:12%;
+ }
+ .row1{
+     margin-left: 4%;
+ }
+ .title1{
+     margin-left: 6%;
+    font-size: 34px;
+ }
+.title2{
+    margin-left: 10%;
+    font-size: 34px;
+
+}
+.section2 h2{
+    padding-left: 2%;
+}
+.section2 p{
+    padding-left: 2%;
+}
+footer, h4, p{
+    display: inline-block;
+}
+.contact{
+    font-size: 200%;
+    display: flex;
+    justify-content: space-between;
+}
+#icons{
+    justify-content: space-evenly;
+    display: flex;
+}
