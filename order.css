@@ -8,7 +8,7 @@ body{
     top:10%;
     left:10%;
     transform: translate(-50%,-50%);
-    background:#ebebeb;
+    background:#7e8a97;
     height:5%;
     width:15%;
     border-radius: 40px;
@@ -76,11 +76,11 @@ body{
     margin: 0 auto 80px;
     position: relative;
     line-height: 60px;
-    color: ;
+    color: black;
 }
 h4{
     color: #2d6187;
-    font-weight: normal;
+    font-weight: 700;
     font-size: 1.5em;
 }
 .col-2 p{
@@ -88,4 +88,11 @@ h4{
 }
 .col-2:hover{
     transform: translateY(-10px);
+}
+h2{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 3em;
+    padding-top: 10%;
+    padding-bottom: 0% ;
 }
